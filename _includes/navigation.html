@@ -1,0 +1,14 @@
+<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+    <a class="navbar-brand" href="{{site.baseurl}}/">Daniel Turuș</a>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link"  href="{{site.baseurl}}/" {% if page.url == '/' %}id="mata"{% endif %}>Home <span class="sr-only">
+      </span></a>
+      <a class="nav-item nav-link"  href="{{site.baseurl}}/contact/" {% if page.url == '/contact/' %}id="mata"{% endif %}>Contact</a>
+      <a class="nav-item nav-link" href="{{site.baseurl}}/about/" {% if page.url == '/about/' %}id="mata"{% endif %}>About</a>
+    </div>
+  </div>
+</nav>
