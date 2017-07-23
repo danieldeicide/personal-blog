@@ -1,0 +1,9 @@
+baseurl: /personal-blog
+exclude: ['README.md']
+title: page.title
+
+
+sass:
+    load_paths:
+        - _sass
+        - node_modules
