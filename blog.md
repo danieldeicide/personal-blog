@@ -2,6 +2,7 @@
 layout: default
 title: Blog
 permalink: /blog/
+meta: Welcome to this wonderful blog
 ---
 
 <ul>

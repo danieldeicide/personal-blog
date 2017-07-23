@@ -1,5 +1,10 @@
 title: {{page.title}}
-description: {{page.description}}
+description: {{page.meta}}
+url: https://danieldeicide.github.io/personal-blog/
+author: Daniel Deicide
+twitter:
+  username: danieldeicide
+logo:
 
 
 
@@ -19,3 +24,4 @@ sass:
 
 gems:
   - jekyll-seo-tag
+  - octopress-minify-html
