@@ -1,3 +1,4 @@
+markdown: kramdown
 title: {{page.title}}
 description: {{page.meta}}
 url: https://danieldeicide.github.io/personal-blog/
